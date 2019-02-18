@@ -1,0 +1,64 @@
+<meta http-equiv='Content-type' content='text/htm'>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>可视化</title>
+</head>
+
+    {% csrf_token %}
+    <link rel="stylesheet" type="text/css" href="/static/css/htmltest.css" />
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+     <!--<audio autoplay="autoplay">
+     <source src="/static/music/jindaren.mp3" type="audio/ogg">
+</audio>-->
+    <body>
+
+    <style type="text/css">
+        html,body {
+            height: 100%;
+            width:100%
+        }
+    </style>
+
+
+<div id = "top">
+	<video  data-autoplay="" loop="loop" autoplay="autoplay" src="/static/img/tvc-v2_30097df.mp4" id="video01"  data-object-fit=""></video>
+    <div id ="snowb">
+        <div id = "zq0">
+            <div id = "set">
+            	<div id = "set0"></div>
+                <div id = "set1"></div>
+                <div id = "set2"></div>
+
+
+                </div>
+        <div class = "clean"></div>
+            <form action="test" method="post">
+                <label>
+                        <div id = "zq1">
+                                <div id = "zq3" >用户名<input  id = "zq9" class = "zq2" type="text" /><span id="usename" style = "float:right;"></span></div>
+                                <div style = "padding-top:30px;color:#FFF;">密&nbsp&nbsp&nbsp码<input id = "zqin01" class = "zq2" type="password" /></div>
+
+
+                                <button id= "but"><a style="text-decoration:none;" href="/blog/content/">登&nbsp;&nbsp;&nbsp;录<a></button>
+                            <div style="float:right;margin-top:6px;"><button  ><a href="/blog/zhuce/" style="text-decoration:none;"> 注册</a></button></div>
+                                <div style= "float:right;margin-top:6px;margin-right:6px;"> <a href=""><input type ="button" value="忘记密码"></a></div>
+                        </div>
+                    </label>
+                </form>
+
+        </div>
+     </div>
+ </div>
+
+ <div class = "clean"></div>
+
+
+
+
+     <!--<script src="/static/js/test.js" type="text/javascript" charset="utf-8"></script>-->
+     <script src= "/static/js/set.js" type ="text/javascript" charset = "utf-8"></script>
+    </body>
+
+
+</html>

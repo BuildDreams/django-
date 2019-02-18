@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+#data01{
+	float:right;
+	margin-right:400px;
+	border:solid;
+	width:200px;
+	height:500px;
+		}

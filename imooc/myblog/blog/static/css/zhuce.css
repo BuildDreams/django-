@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+#zqimg01{background-color:#069;
+		width:600px;
+		height:900px;
+		margin-top:10px;
+		margin-left:10px;
+		float:left;
+		background-repeat:no-repeat;
+	}
+
+
+#zq01{
+	margin-top:50px;
+	margin-right:200px;
+	float:right;
+	width:300px;
+	height:200px;
+	}
+#zq02{
+	border:#09C;
+	width:500px;
+	height:43px;
+	}
+#zq03{
+	margin-top:10px;
+	width:305px;
+	height:43px;
+	}
+#zqi01{width:260px;
+		height:38px;
+		border:solid 1px;
+		border-top-left-radius:5px;
+		border-top-right-radius:5px;
+		border-bottom-right-radius:5px;
+		border-bottom-left-radius:5px;
+		border-color:#0CF;	
+	}
+#zqi02{width:260px;
+		height:38px;
+		border:solid 1px;
+		border-top-left-radius:5px;
+		border-top-right-radius:5px;
+		border-bottom-right-radius:5px;
+		border-bottom-left-radius:5px;
+		border-color:#0CF;	
+	}
+#zqi04{width:260px;
+		height:38px;
+		border:solid 1px;
+		border-top-left-radius:5px;
+		border-top-right-radius:5px;
+		border-bottom-right-radius:5px;
+		border-bottom-left-radius:5px;
+		border-color:#0CF;	
+	}
+#zqi03{
+	margin-top:10px;
+	width:300px;
+	height:40px;
+	border:1px solid;
+	background-color:#3083ff;
+	color:#FFF;
+	font-size:27px;
+	font-family:"仿宋";
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	}
+#zq04{
+	width:1536px;
+	height:508px;
+	}
+.zq05{clear:both;
+	}
+#zqfont01{
+	float:left;
+	margin-top:200px;
+	color:#0FC;
+	font-size:50px;
+	}
+#zq09{
+	margin-right:240px;
+	width:500px;
+	height:400px;
+	float:right;
+	}

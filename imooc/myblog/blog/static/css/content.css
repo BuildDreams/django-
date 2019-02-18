@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+#zq01{
+	width:500px;
+	height:400px;
+	border:solid 1px;
+	margin-left:170px;
+	float:left;}
+#zq02{width:90px;
+	height:30px;
+	float:right;}
+#zq03{
+	width:700px;
+	height:400px;
+	border:solid 1px;
+	float:left;
+	margin-left:100px;
+	background-color:#0FC;}
+#zq04{
+	width:350px;
+	height:200px;
+	float:left;
+	}
+#zq05{
+	width:350px;
+	height:200px;
+	float:right;
+	}
+.clear{
+	clear:both;
+	}
+#zq06{
+	width:350px;
+	height:200px;
+	
+	float:left;
+	}
+#zq07{
+	width:350px;
+	height:200px;
+	float:right;
+	}
+#zq08{
+	margin-left:170px;
+	width:500px;
+	height:400px;
+	margin-top:20px;
+	border:solid 1px;
+	float:left;}
+#zq09{
+	width:700px;
+	height:200px;
+	border:solid 1px;
+	margin-right:198px;}
+#zq10{
+	width:700px;
+	height:200px;
+	border:solid 1px;
+	margin-right:178px;}
+#zq11{
+	width:700px;
+	height:400px;
+	margin-top:20px;
+	border:solid 1px;
+	float:right;
+	margin-right:30px;}
+#zq12{
+	width:500px;
+	height:400px;
+	border:dashed 1px;
+	float:left;
+	margin-left:170px;
+	margin-top:30px;
+	}
+#zq13{
+	width:700px;
+	height:400px;
+	margin-top:29px;
+	border:solid 1px;
+	float:right;
+	margin-right:30px;}

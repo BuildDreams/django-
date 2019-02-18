@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/static/css/zhuce.css" />
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+ 
+<body>
+
+	<div id="zqimg01"><img id = "zqimg02" style="width:100%;height:100%;" src="/static/img/01-3.jpg" /></div>
+    
+    <div id = "zq09">
+        <div id="zqfont01">Welcome!</div>
+        <div id = "zq01">
+    
+            <form  id="formurl" action="" method="post">
+               {% csrf_token %}
+                 
+                <div id="zq02"> <label id = >用户
+                 <input id = "zqi01" type="text" name="usename">
+                    </label><span id ="isok">{{ result }}</span> </div>
+                   
+                <div id="zq03"><label>密码
+                    <input id = "zqi02" type="password" name="usepassword">
+                </label></div>
+                <div id="zq03"><label>确认
+                    <input id = "zqi04" type="password" name="usepassword">
+                </label><span id="queren"></span></div>
+                
+                <input id = "zqi03" type="submit" value="注&nbsp;&nbsp;&nbsp册">
+                
+            </form>
+            </div>
+    </div>
+
+</body>
+
+
+</html>
+<script src="/static/js/zhuce.js" type="text/javascript" charset="utf-8"></script>

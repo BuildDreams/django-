@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+#zq001{margin-top:100px;
+		margin-left:700px;
+		width:100px;
+		height:100px;
+		background-color:#0CC;
+		border-radius:50%;
+		color:#FFF;
+		line-height:100px;
+		text-align:center;
+		font-size:50px;
+		/*padding-top:30px;*/
+
+	}
+#zq002{
+	width:300px;
+	height:30px;
+	color:#FFF;
+	margin-top:20px;
+	margin-left:600px;
+	background-color:#8bc34a;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom:none;
+	}

@@ -1,0 +1,35 @@
+<meta http-equiv='Content-type' content='text/htm'>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>可视化</title>
+
+</head>
+<link rel="stylesheet" type="text/css" href="/static/css/ech.css" />
+<body>
+    <input id="data00" type="button" value="显示数据">
+    <div id="data01">
+    {{ res }}
+    </div>
+<!--<script src="/static/js/ech.js" type="text/javascript" charset="utf-8">-->
+<script>
+document.getElementById("data00").onclick = function()
+{
+	var xhr = new XMLHttpRequest();
+	xhr.open("get","../data.py",true);
+	
+	xhr.onreadystatechange = function()
+	{
+		if(xhr.readyState == 4 && xhr.status ==200)
+		{
+			var str = xhr.responseText;
+			document.getElementById("data01").innerHTML = str;
+		}
+	}
+	xhr.send();
+}
+
+
+</script>
+</body>
+</html>

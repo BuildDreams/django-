@@ -1,0 +1,4 @@
+安装 django 
+进入manage.py同级文件，cmd进入命令行，运行 python manage.py runserver
+浏览器输入127.0.0.1:8000
+
