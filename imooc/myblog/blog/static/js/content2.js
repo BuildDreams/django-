@@ -11,22 +11,21 @@ $(document).ready(
 						  },
 					dataType: 'JSON',
 					success: function (datas)
-					{	
+					{
 						var res9=datas.data9;
-						
-						console.log(res9[0])
+						//console.log(res9[0].data)
 						var myChart = echarts.init(document.getElementById('zq13'));
 						 var data = [{
-									 "time": "2018/12",
+									 "time": "2018/9",
 									 "data": datas.data9[0].data},
-									 {"time": "2019/1",
+									 {"time": "2018/10",
 									 "data": datas.data10[0].data},
-									 {"time": "2019/2",
+									 {"time": "2018/11",
 									 "data": datas.data11[0].data,
 						 			}]
 							
 								 var option = {
-									 backgroundColor: '#25499F',
+									 backgroundColor: '#000',
 									 baseOption: {
 										 animationDurationUpdate: 1000,
 										 animationEasingUpdate: 'quinticInOut',
@@ -56,7 +55,7 @@ $(document).ready(
 											 },
 											 symbol: 'none',
 											 lineStyle: {
-												 color: '#555'
+												 color: '#000'
 											 },
 											 checkpointStyle: {
 												 color: '#bbb',
@@ -81,7 +80,7 @@ $(document).ready(
 										 },
 										 backgroundColor: '#25499F',
 										 title: {
-											 text: '12-2月份中国发布工作岗位前10省份情况',
+											 text: '9-11月份中国发布工作岗位前10省份情况',
 											 subtext: '工作岗位数量:个',
 											 left: 'center',
 											 top: 'top',

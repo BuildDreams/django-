@@ -1,12 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
-
+body{
+	background-color: #000;
+}
 #zq01{
 	width:500px;
 	height:400px;
-	border:solid 1px;
+	border:none;
 	margin-left:170px;
-	float:left;}
+	float:left;
+	background-color:#000;}
 #zq02{width:90px;
 	height:30px;
 	float:right;}
@@ -16,7 +19,7 @@
 	border:solid 1px;
 	float:left;
 	margin-left:100px;
-	background-color:#0FC;}
+	background-color:#069;}
 #zq04{
 	width:350px;
 	height:200px;
@@ -51,20 +54,23 @@
 #zq09{
 	width:700px;
 	height:200px;
-	border:solid 1px;
-	margin-right:198px;}
+	border:none;
+	background-color:#000;
+	}
 #zq10{
 	width:700px;
 	height:200px;
-	border:solid 1px;
-	margin-right:178px;}
+	border:none;
+	margin-right:198px;
+	background-color:#000;}
 #zq11{
 	width:700px;
 	height:400px;
 	margin-top:20px;
 	border:solid 1px;
 	float:right;
-	margin-right:30px;}
+	margin-right:30px;
+	}
 #zq12{
 	width:500px;
 	height:400px;
@@ -72,11 +78,12 @@
 	float:left;
 	margin-left:170px;
 	margin-top:30px;
+	background-color: #000;
 	}
 #zq13{
 	width:700px;
 	height:400px;
-	margin-top:29px;
+	margin-top:20px;
 	border:solid 1px;
 	float:right;
 	margin-right:30px;}

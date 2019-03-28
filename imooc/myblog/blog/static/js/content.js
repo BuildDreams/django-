@@ -22,7 +22,7 @@ $(document).ready(
 					//myChart.showLoading()用于数据量太多加载动画过程，要在异步加载之前
 					// 指定图表的配置项和数据
 					var option = {
-						color:["#006699","#4cabce"],//颜色
+						color:["#006699","green"],//颜色
 						title: {
 							text: '西安学历和工资'
 						},
@@ -67,8 +67,8 @@ $(document).ready(
 							itemStyle : {
 								normal : {
 									lineStyle:{
-										width:3,//折线宽度
-										color:"#FF0000"//折线颜色
+										width:2,//折线宽度
+										color:"#006699"//折线颜色
 									}
                     		}
                 },
@@ -83,8 +83,8 @@ $(document).ready(
 							itemStyle : {
 								normal : {
 									lineStyle:{
-										width:3,//折线宽度
-										color:"#yellow"//折线颜色
+										width:2,//折线宽度
+										color:"green"//折线颜色
 									}
 								}
 							}
@@ -189,7 +189,7 @@ $(document).ready(
 						data.push(randomData(i));
 					}
 					option = {
-						backgroundColor: '#09F',
+						backgroundColor: '#000',
 						label: {
 								show: true, //开启显示
 								position: 'top', //在上方显示
@@ -294,23 +294,23 @@ $(document).ready(
 					}
 					option = {
 						label: {
-								show: true, //开启显示
+								show: false, //开启显示
 								position: 'top', //在上方显示
 								textStyle: { //数值样式
-									color: 'black',
+									color: 'green',
 									fontSize: 16,
 									fontWeight: 600
 									}
 								},
 						legend: {
- 						icon: "triangle",   //  字段控制形状  类型包括 	circle，rect,line，roundRect，triangle，diamond，pin，arrow，none
+ 						icon: "circle",   //  字段控制形状  类型包括 triangle	circle，rect,line，roundRect，triangle，diamond，pin，arrow，none
 					 	itemWidth: 10,  // 设置宽度
 					 	itemHeight: 10, // 设置高度
 					 	itemGap: 20 // 设置间距
 					 	},
-						backgroundColor: '#09F',
+						backgroundColor: '#000',
 						title: {
-							text: '成都三个月内工作需求变化'
+							text: '西安三个月内工作需求变化'
 						},
 						tooltip: {
 							trigger: 'axis',
@@ -320,7 +320,7 @@ $(document).ready(
 								return date.getDate() + '/' + (date.getMonth() + 1) + '/' + date.getFullYear() + ' : ' + params.value[1];
 							},
 							axisPointer: {
-								animation: false
+								animation: true
 							}
 						},
 						xAxis: {
@@ -333,15 +333,15 @@ $(document).ready(
 							type: 'value',
 							boundaryGap: [0, '100%'],
 							splitLine: {
-								show: false
+								show: false //加上格式线
 							}
 						},
 						series: [{
 							name: '需求走势',
-							color:'yellow',
-							type: 'line',
+							color:'#069',
+							type: 'bar',
 							showSymbol: false,
-							hoverAnimation: false,
+							hoverAnimation: true,
 							data: data
 						}]
 					};
@@ -395,7 +395,7 @@ $(document).ready(
 									}
 							
 								},
-								backgroundColor: '#F7F7F7',
+								backgroundColor: '#069',
 								tooltip: {
 									show: true
 								},
@@ -413,7 +413,7 @@ $(document).ready(
 								series: [{
 									name: '待遇分析',
 									type: 'wordCloud',
-									//size: ['9%', '99%'],
+									size: ['9%', '99%'],
 									sizeRange: [6, 66],
 									//textRotation: [0, 45, 90, -45],
 									rotationRange: [-45, 90],
@@ -435,7 +435,7 @@ $(document).ready(
 										},
 										emphasis: {
 											shadowBlur: 10,
-											shadowColor: '#333'
+											shadowColor: '#000'
 										}
 									},
 									data: datas
